@@ -14,7 +14,7 @@ static bool canAct(PlayerObject* p, bool isP1) {
 	// touching an orb that hasn't been used yet
 	if (p->m_touchingRings) {
 		for (auto obj : CCArrayExt<GameObject*>(p->m_touchingRings)) {
-			bool used = isP1 ? obj->m_hasBeenActivated : obj->m_hasBeenActivatedP2;
+			   bool used = false;
 			if (!used) return true;
 		}
 	}
