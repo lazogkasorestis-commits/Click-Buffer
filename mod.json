@@ -1,0 +1,32 @@
+{
+	"geode": "5.0.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "yourname.click-buffer",
+	"name": "Click Buffer",
+	"version": "v1.0.0",
+	"developer": "YourName",
+	"description": "Buffers clicks that come slightly too early and fires them once the player can act.",
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"name": "Enabled",
+			"default": true
+		},
+		"buffer-frames": {
+			"type": "int",
+			"name": "Buffer (frames)",
+			"description": "How many frames an early click is kept before it is dropped. 0 = off.",
+			"default": 2,
+			"min": 0,
+			"max": 5,
+			"control": {
+				"slider": true
+			}
+		}
+	}
+}
