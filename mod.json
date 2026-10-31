@@ -6,10 +6,10 @@
 		"mac": "2.2081",
 		"ios": "2.2081"
 	},
-	"id": "yourname.click-buffer",
+	"id": "click-buffer",
 	"name": "Click Buffer",
 	"version": "v1.0.0",
-	"developer": "YourName",
+	"developer": "NstPotato",
 	"description": "Buffers clicks that come slightly too early and fires them once the player can act.",
 	"settings": {
 		"enabled": {
@@ -23,7 +23,7 @@
 			"description": "How many frames an early click is kept before it is dropped. 0 = off.",
 			"default": 2,
 			"min": 0,
-			"max": 5,
+			"max": 50,
 			"control": {
 				"slider": true
 			}
